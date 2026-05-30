@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mbandeni Mineral Water | Order Online</title>
+  <meta name="description" content="Order clean, refreshing Mbandeni Mineral Water for home, office, events, and shops.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Mbandeni Mineral Water home">
+      <span class="brand-mark">M</span>
+      <span>
+        <strong>Mbandeni</strong>
+        <small>Mineral Water</small>
+      </span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#products">Products</a>
+      <a href="#order">Order</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Fresh water, ready every day</p>
+        <h1>Mbandeni Mineral Water</h1>
+        <p class="hero-text">Clean mineral water, refills, ice cubes, and custom bottled water for homes, events, shops, schools, churches, and businesses.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#order">Start order</a>
+          <a class="button secondary" href="#products">View products</a>
+        </div>
+        <div class="hero-facts" aria-label="Quick business details">
+          <span><strong>R1</strong> refills</span>
+          <span><strong>07:00</strong> open daily</span>
+          <span><strong>R102</strong> Eniwe Reserve</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Mbandeni water bottle product display">
+        <img src="assets/mbandeni-bottle.svg" alt="Mbandeni mineral water bottle">
+        <div class="quality-card">
+          <strong>Pure taste</strong>
+          <span>Everyday hydration, custom bottles, event supply, and business orders.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Service highlights">
+      <div>
+        <strong>Bulk orders</strong>
+        <span>Cases, custom bottles, and bottles for groups</span>
+      </div>
+      <div>
+        <strong>Local delivery</strong>
+        <span>Send your address with the order</span>
+      </div>
+      <div>
+        <strong>Open daily</strong>
+        <span>Monday to Sunday, 07:00 - 19:30</span>
+      </div>
+    </section>
+
+    <section class="section" id="products">
+      <div class="section-heading">
+        <p class="eyebrow">Choose your water</p>
+        <h2>Fresh options at clear prices</h2>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <span class="price-badge">R1</span>
+          <img src="assets/mbandeni-bottle.svg" alt="Water refill">
+          <div>
+            <h3>Water Refill</h3>
+            <p>Affordable refill water for your own clean container.</p>
+          </div>
+          <button class="add-button" data-name="Water Refill" data-price="1">Add R1</button>
+        </article>
+
+        <article class="product-card">
+          <span class="price-badge">R6</span>
+          <img src="assets/mbandeni-bottle.svg" alt="500 ml bottle">
+          <div>
+            <h3>500 ml Bottle</h3>
+            <p>Easy single bottle for lunch, meetings, and daily use.</p>
+          </div>
+          <button class="add-button" data-name="500 ml Bottle" data-price="6">Add R6</button>
+        </article>
+
+        <article class="product-card">
+          <span class="price-badge">R12</span>
+          <img src="assets/mbandeni-bottle.svg" alt="1.5 litre bottle">
+          <div>
+            <h3>1.5 L Bottle</h3>
+            <p>Family-size bottle for home, travel, and small gatherings.</p>
+          </div>
+          <button class="add-button" data-name="1.5 L Bottle" data-price="12">Add R12</button>
+        </article>
+
+        <article class="product-card">
+          <span class="price-badge">R20</span>
+          <img src="assets/mbandeni-bottle.svg" alt="Ice cubes">
+          <div>
+            <h3>Ice Cubes</h3>
+            <p>Ready for parties, shops, events, and everyday cooling.</p>
+          </div>
+          <button class="add-button" data-name="Ice Cubes" data-price="20">Add R20</button>
+        </article>
+
+        <article class="product-card featured-card">
+          <span class="price-badge quote">Quote</span>
+          <img src="assets/mbandeni-bottle.svg" alt="Custom water bottles">
+          <div>
+            <h3>Custom Water Bottles</h3>
+            <p>Personalized bottle labels for events, businesses, schools, churches, and special occasions.</p>
+          </div>
+          <button class="add-button" data-name="Custom Water Bottles" data-price="0">Request Quote</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="order-section" id="order">
+      <div class="order-panel">
+        <div class="section-heading">
+          <p class="eyebrow">Place your order</p>
+          <h2>Order Water</h2>
+          <p class="section-note">Pick your items, add your delivery details, and send the order straight to WhatsApp.</p>
+        </div>
+
+        <form id="orderForm">
+          <div class="form-grid">
+            <label>
+              Full name
+              <input id="customerName" name="customerName" type="text" placeholder="Your name" required>
+            </label>
+            <label>
+              Phone number
+              <input id="customerPhone" name="customerPhone" type="tel" placeholder="+27..." required>
+            </label>
+          </div>
+          <label>
+            Delivery address
+            <textarea id="customerAddress" name="customerAddress" rows="3" placeholder="Street, area, town" required></textarea>
+          </label>
+          <label>
+            Order notes
+            <textarea id="orderNotes" name="orderNotes" rows="3" placeholder="Preferred delivery time, event date, or special request"></textarea>
+          </label>
+
+          <div class="order-actions">
+            <button class="button primary" type="submit">Send order</button>
+            <button class="button ghost" type="button" id="clearOrder">Clear order</button>
+          </div>
+        </form>
+      </div>
+
+      <aside class="cart-panel" aria-live="polite">
+        <h2>Your Order</h2>
+        <p class="cart-intro">Add products above and your total will update here.</p>
+        <div id="cartItems" class="cart-items"></div>
+        <div class="cart-total">
+          <span>Total</span>
+          <strong id="cartTotal">R0</strong>
+        </div>
+        <p class="cart-note">Open Monday to Sunday from 07:00 to 19:30.</p>
+      </aside>
+    </section>
+
+    <section class="contact-band" id="contact">
+      <div>
+        <p class="eyebrow">Need help?</p>
+        <h2>Contact Mbandeni Mineral Water</h2>
+        <p>Located at Empangeni, Eniwe Reserve, R102. Open Monday to Sunday from 07:00 to 19:30. Call or send your order on WhatsApp.</p>
+      </div>
+      <div class="contact-links">
+        <a class="button secondary" href="tel:+27824778567">Call 0824778567</a>
+        <a class="button secondary" href="https://wa.me/27824778567">WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>&copy; <span id="year"></span> Mbandeni Mineral Water.</span>
+    <span>Built for GitHub Pages.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
